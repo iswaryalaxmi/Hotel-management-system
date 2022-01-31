@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fooders</title>
+    <link rel="shortcut icon" type="image" href="./i3/foologo.jfif">
+    <!--CSS-->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <!--Navbar-->
+
+            <nav class="navbar">
+                <h1 class="logo">FOODERS</h1>
+                    <ul class="nav-links">
+                        <li class="active"><a href="#"></a>HOME</li>
+                        <li><a href="fooditems.html">FOOD ITEMS AND OFFERS</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li class="ctn"><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                    <img src="./img/menu-btn.png" alt="" class="menu-btn" >
+                </nav>
+
+    <!--Header-->
+    <header>
+        <div class="header-content">
+            <h2>Explore the Foods</h2>
+            <div class="line"></div>
+            <h1>FOODERS</h1>
+    </header>
+
+    <!--Events-->
+
+    <section class="events">
+        <div class="title">
+            <h1>Upcomming food</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/img1.jpg" alt=""> 
+                <h4>Cheese Pizza</h4>
+                <p>A lot of people think it's the generic name for a cheese and to
+                    mato pizza, but there's a difference between cheese pizza, plain pizza and Margherita pizza</p>
+                </p>
+            </div>
+            <div class="col">
+                <img src="./img/img2.jpg" alt=""> 
+                <h4>Chilli Cheese Pizza</h4>
+                <p>A lot of people think it's the generic name for a cheese and to
+                    mato pizza, but there's a difference between cheese pizza, plain pizza and Margherita pizza</p>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--Explore-->
+
+    <section class="explore">
+        <div class="explore content">
+            <h1 style="color:rgb(48, 217, 230);font-size: 70px;text-align: center;">EXPLORE THE FOOD</h1>
+            <p style="color:whitesmoke; font-size:30px;">epicure, gourmet, gourmand, gastronome mean one who takes pleasure 
+            nd drinking. ... gourmet implies being a connoisseur in food and drink and the discriminating enjoyment of them.</p>
+       
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>FOOD TOURS</h1>
+                <p> Take three hearty scoops of your favorite ice cream, add two 
+                    ounces of milk and any flavorings you want (chocolate syrup, candy or 
+                    cookie pieces). Do not add ice as it will just water it down. 
+                    If you like your milkshakes thinner, add more milk.</p>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                   <img src="./img/img3.png" alt="">
+                   <img src="./img/img4.png" alt="">
+                   <img src="./img/img5.png" alt="">
+                   <img src="./img/img6.png" alt="">
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>123,Anna Nagar,Chennai,Tamilnadu|Phone:8306875630|Email:abc@gmail.com</p>
+        <p>Copyright@2022OctoberFooders</p>
+    </section>
+
+        <script>
+            const menuBtn=document.querySelector('.menu-btn')
+            const navlinks=document.querySelector('.nav-links')
+            
+            menuBtn.addEventListener('click',()=>{
+                navlinks.classList.toggle('mobile-menu');
+            })
+        </script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+   body {
+    overflow-x: hidden;
+    }
+    .home-icon{
+        color:red;
+        transition:color 0.3s;
+        text-decoration: none;
+        width: 40px;
+        height: 40px;
+        background-color: #eee;
+        margin: auto 20px;
+        box-shadow: 3px 3px 10px #aeaeae, -4px -4px 10px white;
+        text-align: right;
+        line-height: 100px;
+        font-size: 30px;  
+        cursor: pointer;   
+    }
+    
+    
+    .home-icon:hover {
+        color:rgb(37, 13, 170);
+    }
+    .header-content {
+        padding: 5px;
+        text-align: center;
+        background: #c2f1f3;
+        color: rgb(56, 24, 24);
+        font-size: 30px;
+      }
+      p{
+          line-height: 6mm;
+      }
+
+    a{
+        text-decoration: none;
+    }
+    ul{
+        list-style: none;
+    }
+    
+  .iframe-container {
+		text-align:center;
+  		width:100%;
+       
+  }
+
+  
+
+@media only screen and (max-width:850px){
+
+    div{
+        background: rgb(181, 248, 248);
+    }
+    .text{
+        font-size: 18px;
+    }
+    .row{
+        flex-direction: column ;
+    }
+    .row.col{
+        margin: 20px auto;
+    }  
+
+}
+
+/*Animation*/
+
+.img{
+    transition: transform .3s ease;
+}
+.img:hover{
+    transform: scale(1.1);
+}
